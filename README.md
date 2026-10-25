@@ -31,35 +31,12 @@ My previous experience includes working with industrial equipment, operational d
 ## 🛠 Tech stack
 
 **Backend**
-- Python
-- Django
-- Django REST Framework
-- REST API
-- Django ORM
-
-**Databases**
-- PostgreSQL
-- SQLite
-
-**Tools**
-- Git
-- GitHub
-- Docker Compose
-- Pytest
-- Poetry
-- Linux
-- Celery
-- Redis
-- CI/CD
+- Python • Django • Django REST Framework • REST API
+- Django ORM • PostgreSQL • SQLite • Git • GitHub • Redis
+- Docker Compose • Pytest • Poetry • Linux • Celery • CI/CD
 
 **Currently exploring**
-- FastAPI
-- Pydantic
-- Uvicorn
-- asyncpg
-- SQLAlchemy
-- Alembic
-
+- FastAPI • Pydantic • Uvicorn • asyncpg • SQLAlchemy • Alembic
 ---
 
 ## 📊 GitHub statistics
