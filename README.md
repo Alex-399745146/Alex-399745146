@@ -56,7 +56,7 @@ My previous experience includes working with industrial equipment, operational d
 
   [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bachevskiyaa)
   [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bachevskiyaa@bk.ru)
-
+  [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bachevskiiaa@gmail.com)
 </div>
 
 
