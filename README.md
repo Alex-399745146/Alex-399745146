@@ -1,4 +1,4 @@
-<h1 align="center">Junior Python Backend Developer</h1>
+<h1 align="center">Python Backend Developer</h1>
 
 <p align="center">
   Python-разработчик, развиваюсь в backend-направлении. Интересуюсь автоматизацией,
