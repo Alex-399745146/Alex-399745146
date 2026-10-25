@@ -48,41 +48,17 @@ My previous experience includes working with industrial equipment, operational d
 - Pytest
 - Poetry
 - Linux
-
-**Currently exploring**
 - Celery
 - Redis
 - CI/CD
 
----
-
-## 🚀 Projects
-
-### Fish Farm Control — aquaculture management system
-
-An MVP web application for managing a recirculating aquaculture system for rainbow trout.
-
-- Designed application logic for tanks, fish batches, biomass, feeding, and equipment data.
-- Worked on feeding plans, growth and profit forecasts, and cost calculations.
-- Implemented communication with industrial devices via Modbus RTU over RS-485.
-- Built with Python, Django, Django REST Framework, and SQLite.
-- Further MVP development was paused by the project owner.
-
-### Habit Tracker
-
-A Django application for tracking habits with Telegram bot integration.
-
-- Django backend and REST API.
-- PostgreSQL database.
-- Telegram bot integration.
-
-### Online Store
-
-A personal Django project focused on backend development and core e-commerce workflows.
-
-### CLI applications
-
-Small command-line projects, including tools for working with external APIs and analyzing data from Excel files.
+**Currently exploring**
+- FastAPI
+- Pydantic
+- Uvicorn
+- asyncpg
+- SQLAlchemy
+- Alembic
 
 ---
 
