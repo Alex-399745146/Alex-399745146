@@ -17,7 +17,10 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # METRICS_TOKEN — личный токен с доступом к публичным репозиториям.
+          # Без него GitHub Actions не видит языки в чужих репозиториях и
+          # подставляет GITHUB_TOKEN, у которого доступ только к этому репозиторию.
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: Alex-399745146
           filename: github-metrics.svg
           template: classic
@@ -33,17 +36,6 @@ jobs:
           plugin_languages_ignored: html, css, dockerfile, jupyter notebook
           plugin_languages_categories: programming, markup
 
-          # Календарь активности
+          # Календарь активности за полгода
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-
-          # Строки кода
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-
-          # Привычки (коммиты, время суток, языки)
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
