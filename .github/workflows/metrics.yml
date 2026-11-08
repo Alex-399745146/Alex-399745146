@@ -17,24 +17,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # METRICS_TOKEN — личный токен с доступом к публичным репозиториям.
-          # Без него GitHub Actions не видит языки в чужих репозиториях и
-          # подставляет GITHUB_TOKEN, у которого доступ только к этому репозиторию.
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          # GITHUB_TOKEN достаточно: карточка строится только по этому профилю,
+          # а разбивка по языкам живёт в отдельном workflow (languages.yml).
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: Alex-399745146
           filename: github-metrics.svg
           template: classic
           base: header, activity, community, metadata
           config_timezone: Europe/Moscow
-
-          # Языки по объёму кода
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          plugin_languages_analysis_timeout: 30
-          plugin_languages_ignored: html, css, dockerfile, jupyter notebook
-          plugin_languages_categories: programming, markup
 
           # Календарь активности за полгода
           plugin_isocalendar: yes

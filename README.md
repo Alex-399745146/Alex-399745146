@@ -84,13 +84,11 @@ API трекера привычек: JWT, публичные и приватны
 
 <div align="center">
 
-  <img src="github-metrics.svg" alt="GitHub metrics" width="100%" />
+  <img src="languages.svg" alt="Языки по объёму кода" width="480" />
+
+  <img src="github-metrics.svg" alt="Статистика GitHub" width="480" />
 
 </div>
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/1F3A5F/Alex-399745146" alt="Активность на GitHub" width="100%" />
-</p>
 
 ---
 
